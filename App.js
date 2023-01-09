@@ -14,7 +14,7 @@ const App = () => {
       <Stack.Navigator>
         <Stack.Screen name="Start Screen" component={StartScreen}/>
         <Stack.Screen name="Host" component={Host}/>
-        <Stack.Screen name="Client" component={Client} options={{headerRight: () => (<Button onPress={() => console.log('foi')} title="Teste"/>)}}/>
+        <Stack.Screen name="Client" component={Client}/>
       </Stack.Navigator>
     </NavigationContainer>
   );
