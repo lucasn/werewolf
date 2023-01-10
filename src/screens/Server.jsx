@@ -3,9 +3,9 @@ import { useState, useEffect } from "react";
 import { NetworkInfo } from "react-native-network-info";
 import TcpSocket from 'react-native-tcp-socket';
 
-import styles from "../styles/styles";
+import styles from "../../styles/styles";
 
-const Host = () => {
+const Server = () => {
 	const [deviceIp, setDeviceIp] = useState('');
 	const [server, setServer] = useState(null);
 	const [clients, setClients] = useState([]);
@@ -75,4 +75,4 @@ const Host = () => {
   );
 }
 
-export default Host;
+export default Server;
